@@ -6,5 +6,5 @@ for groot in range(1,101): #this will give me numbers from 1-100
     elif groot % 3 ==0: #this checks for a multiple of 3 only
         print "fizz"
     else:
-        print groot #this calls the function
+        print groot #this prints just the number
 
