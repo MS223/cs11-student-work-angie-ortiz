@@ -1,4 +1,4 @@
-guesses=0
+guesses=1
 user=raw_input("What is your name?")
 highest_number=input("What's the highest number you would like to choose from:")
 import random
@@ -16,4 +16,4 @@ while guess != answer:
         guess= input("What's your guess?")
         guesses= guesses+1
 print "Your guess was correct!"
-print "It took you" + str(guesses) + "tries"
+print "It took you " + str(guesses) + " tries"
